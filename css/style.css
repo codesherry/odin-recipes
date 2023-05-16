@@ -49,6 +49,24 @@ a:active {
   flex-direction: column;
   padding: 0 5%;
 }
+
+/* Oatmeal Nutritional value table */
+table,
+table caption,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+table caption {
+  background-color: #e9c46a;
+}
+
+td {
+  text-align: center;
+}
+
 /* Footer */
 
 footer {
