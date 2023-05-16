@@ -1,18 +1,61 @@
 body {
-  color: fff;
-  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
 }
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9c46a;
+  color: black;
+}
+
+/* Header */
 
 h1 {
-  font-size: 3rem;
-  background-color: orange;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-left: 3%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding-right: 10px;
+  flex-wrap: wrap;
 }
 
-table,
-td,
-th,
-caption {
-  border: 2px solid black;
-  border-collapse: separate;
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black;
+  background-color: aliceblue;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+/* Footer */
+
+footer {
+  padding: 20px;
+}
+
+.footer-link {
+  display: flex;
+  gap: 20px;
 }
